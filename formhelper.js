@@ -1,14 +1,12 @@
-/**
- * @description FormHelper plugin
- * @author iven
- * @version 1.0
- * @copyright iven 2020.
- */
-
-;(function(global,factory){
+/*!
+  * formhelper v1.0
+  * (c) 2020 Iven Wong
+  * Released under the MIT License.
+  */
+(function(global,factory){
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
         typeof define === 'function' && define.amd ? define(factory) :
-            (global.FormHelper = factory());
+            (global = global || self, global.FormHelper = factory());
 })(this,function(){"use strict";
 
     //#region 表单工具
